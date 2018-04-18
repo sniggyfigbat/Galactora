@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level difficulty_rating="2">
+    <onstart>
+        <asset command="level_03_start" delay="180"/>
+    </onstart>
+    <wave entry_direction="topleft" delay="180">
+        <enemy type="guardian" stack_depth="0.0" offset="1.0" grid_x="1.5" grid_y="-3.5"/>
+        <enemy type="guardian" stack_depth="0.0" offset="-1.0" grid_x="-1.5" grid_y="-3.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="0.5" grid_x="0.5" grid_y="-2.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="-0.5" grid_x="-0.5" grid_y="-2.5"/>
+
+        <enemy type="queen" stack_depth="3.75" offset="0.0" grid_x="0.0" grid_y="-1.0"/>
+
+        <enemy type="drone" stack_depth="6.0" offset="0.5" grid_x="0.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="6.0" offset="-0.5" grid_x="-0.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="0.5" grid_x="0.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="-0.5" grid_x="-0.5" grid_y="-5.5"/>
+    </wave>
+    <wave entry_direction="topright" delay="240">
+        <enemy type="guardian" stack_depth="0.0" offset="1.0" grid_x="3.5" grid_y="-3.5"/>
+        <enemy type="guardian" stack_depth="0.0" offset="-1.0" grid_x="1.5" grid_y="-6.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="0.5" grid_x="3.5" grid_y="-2.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="-0.5" grid_x="2.5" grid_y="-2.5"/>
+
+        <enemy type="queen" stack_depth="3.75" offset="0.0" grid_x="3.0" grid_y="-1.0"/>
+
+        <enemy type="drone" stack_depth="6.0" offset="0.5" grid_x="3.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="6.0" offset="-0.5" grid_x="2.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="0.5" grid_x="3.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="-0.5" grid_x="2.5" grid_y="-5.5"/>
+    </wave>
+    <wave entry_direction="topleft" delay="240">
+        <enemy type="guardian" stack_depth="0.0" offset="-1.0" grid_x="-3.5" grid_y="-3.5"/>
+        <enemy type="guardian" stack_depth="0.0" offset="1.0" grid_x="-1.5" grid_y="-6.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="-0.5" grid_x="-3.5" grid_y="-2.5"/>
+        <enemy type="warrior" stack_depth="1.5" offset="0.5" grid_x="-2.5" grid_y="-2.5"/>
+
+        <enemy type="queen" stack_depth="3.75" offset="0.0" grid_x="-3.0" grid_y="-1.0"/>
+
+        <enemy type="drone" stack_depth="6.0" offset="-0.5" grid_x="-3.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="6.0" offset="0.5" grid_x="-2.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="-0.5" grid_x="-3.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="7.5" offset="0.5" grid_x="-2.5" grid_y="-5.5"/>
+    </wave>
+    <wave entry_direction="right" delay="180">
+        <enemy type="guardian" stack_depth="0.0" offset="0.0" grid_x="3.5" grid_y="-6.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.5" grid_x="4.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="-0.5" grid_x="1.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="3.0" offset="0.5" grid_x="4.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="3.0" offset="-0.5" grid_x="1.5" grid_y="-4.5"/>
+    </wave>
+    <wave entry_direction="left" delay="0">
+        <enemy type="guardian" stack_depth="0.0" offset="0.0" grid_x="-3.5" grid_y="-6.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="-0.5" grid_x="-4.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.5" grid_x="-1.5" grid_y="-5.5"/>
+        <enemy type="drone" stack_depth="3.0" offset="-0.5" grid_x="-4.5" grid_y="-4.5"/>
+        <enemy type="drone" stack_depth="3.0" offset="0.5" grid_x="-1.5" grid_y="-4.5"/>
+    </wave>
+    <wave entry_direction="topleft" delay="180">
+        <enemy type="drone" stack_depth="0.0" offset="0.0" grid_x="-1.5" grid_y="-0.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.0" grid_x="-1.5" grid_y="-1.5"/>
+        <enemy type="warrior" stack_depth="3.0" offset="0.0" grid_x="-1.5" grid_y="-2.5"/>
+    </wave>
+    <wave entry_direction="topright" delay="60">
+        <enemy type="drone" stack_depth="0.0" offset="0.0" grid_x="1.5" grid_y="-0.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.0" grid_x="1.5" grid_y="-1.5"/>
+        <enemy type="warrior" stack_depth="3.0" offset="0.0" grid_x="1.5" grid_y="-2.5"/>
+    </wave>
+    <wave entry_direction="topleft" delay="60">
+        <enemy type="drone" stack_depth="0.0" offset="0.0" grid_x="-4.5" grid_y="-0.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.0" grid_x="-4.5" grid_y="-1.5"/>
+        <enemy type="warrior" stack_depth="3.0" offset="0.0" grid_x="-4.5" grid_y="-2.5"/>
+    </wave>
+    <wave entry_direction="topright" delay="60">
+        <enemy type="drone" stack_depth="0.0" offset="0.0" grid_x="4.5" grid_y="-0.5"/>
+        <enemy type="drone" stack_depth="1.5" offset="0.0" grid_x="4.5" grid_y="-1.5"/>
+        <enemy type="warrior" stack_depth="3.0" offset="0.0" grid_x="4.5" grid_y="-2.5"/>
+    </wave>
+    <onmid count="6" delay="300">
+        <flyby type="trombone" weight="1.0" x_range="6" y_range="1"/>
+        <flyby type="trombone" weight="0.2" x_range="4" y_range="3"/>
+        <flyby type="bicycle" weight="1.0" x_range="4" y_range="2"/>
+        <flyby type="bicycle" weight="0.2" x_range="7" y_range="2"/>
+    </onmid>
+    <exit type="drift" delay="150" step="150" group_size="3"/>
+    <onend>
+        <asset command="level_victory" delay="0"/>
+        <asset command="scorecard" delay="45"/>
+    </onend>
+</level>
